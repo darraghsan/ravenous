@@ -1,4 +1,6 @@
-const apiKey = 'USdanh8PBVLmR_5XRc7YFgyt_IyIjpwyqc_wYPi126woC2El-F0JSIPzbt1idP5dDlsMfYxu8Kn19ZtpWHMMhpAjUICj4eO9XZWmNp5B3aINSGgyxMQQCiWQqnKbX3Yx';
+import config from './config';
+
+const apiKey = config.YELP_API_Key;
 
 const Yelp = {
     search(term, location, sortBy){
